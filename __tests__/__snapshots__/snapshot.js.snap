@@ -1,0 +1,3121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders home page unchanged 1`] = `
+<div>
+  <div>
+    <main
+      class="dark:bg-neutral-900 min-h-screen pb-8"
+    >
+      <div
+        class="sticky top-0 z-10 bg-white dark:bg-neutral-900 border dark:border-neutral-800 shadow-sm"
+      >
+        <div
+          class="flex items-center justify-between gap-3 p-4 max-w-5xl mx-auto"
+        >
+          <nav
+            class="flex flex-wrap items-center gap-x-4 gap-y-2"
+          >
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/"
+            >
+              Components
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/native"
+            >
+              Native
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/example"
+            >
+              Example
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-native"
+            >
+              Playwright Native
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-example"
+            >
+              Playwright Example
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-locator"
+            >
+              Playwright Locator
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-form"
+            >
+              Playwright Form
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-forms"
+            >
+              Playwright Forms
+            </a>
+          </nav>
+          <button
+            aria-label="Change Theme"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-5 w-5 text-gray-700 dark:text-gray-200"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="max-w-5xl mx-auto p-4"
+      >
+        <h1
+          class="text-3xl text-neutral-800 dark:text-white font-semibold tracking-wide mb-8 mt-4"
+        >
+          Components Test
+        </h1>
+        <div
+          class="grid sm:grid-cols-2 md:grid-cols-3 mb-8 "
+        >
+          <div>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#code"
+            >
+              code
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#avatar"
+            >
+              avatar
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#progress"
+            >
+              progress
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#spinner"
+            >
+              spinner
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#snippet"
+            >
+              snippet
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#statusindicator"
+            >
+              statusindicator
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#textarea"
+            >
+              textarea
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#radio"
+            >
+              radio
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#checkbox"
+            >
+              checkbox
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#select"
+            >
+              select
+            </a>
+          </div>
+          <div>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#input"
+            >
+              input
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#inputpassword"
+            >
+              inputpassword
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#button"
+            >
+              button
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#buttonoutline"
+            >
+              buttonoutline
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#linkbutton"
+            >
+              linkbutton
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#linkbuttonoutline"
+            >
+              linkbuttonoutline
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#alert"
+            >
+              alert
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#alertoutline"
+            >
+              alertoutline
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#badge"
+            >
+              badge
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#badgeoutline"
+            >
+              badgeoutline
+            </a>
+          </div>
+          <div>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#heading"
+            >
+              heading
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#kbd"
+            >
+              kbd
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#label"
+            >
+              label
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#note"
+            >
+              note
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#text"
+            >
+              text
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#divider"
+            >
+              divider
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#card"
+            >
+              card
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#container"
+            >
+              container
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#section"
+            >
+              section
+            </a>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="code"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            code
+          </h5>
+          <p
+            class="font-semibold dark:text-white text-sm mt-4 mb-2"
+          >
+            Example Test :
+          </p>
+          <div
+            class="Code bg-gray-100 relative dark:bg-neutral-800 text-sm rounded-md border border-transparent dark:border dark:border-neutral-700 "
+            data-testid="code-wrapper-html"
+          >
+            <button
+              class="absolute right-0 m-3 dark:bg-neutral-800 dark:hover:bg-neutral-700 bg-gray-100 hover:bg-gray-200 border dark:border-neutral-700 px-1 py-1 rounded-md transition-all"
+              title="Copy Code"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-5 w-5 text-neutral-500 hover:text-neutral-600 dark:text-gray-400 dark:hover:text-gray-300 transition-all"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <pre
+              class="line-numbers scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-gray-200 dark:scrollbar-thumb-neutral-700 language-html"
+              tabindex="0"
+            >
+              <code
+                class="language-html"
+                data-testid="code-html"
+              >
+                <span
+                  class="token tag"
+                >
+                  <span
+                    class="token tag"
+                  >
+                    <span
+                      class="token punctuation"
+                    >
+                      &lt;
+                    </span>
+                    button
+                  </span>
+                   
+                  <span
+                    class="token attr-name"
+                  >
+                    data-testid
+                  </span>
+                  <span
+                    class="token attr-value"
+                  >
+                    <span
+                      class="token punctuation attr-equals"
+                    >
+                      =
+                    </span>
+                    <span
+                      class="token punctuation"
+                    >
+                      "
+                    </span>
+                    button-native-disabled
+                    <span
+                      class="token punctuation"
+                    >
+                      "
+                    </span>
+                  </span>
+                   
+                  <span
+                    class="token attr-name"
+                  >
+                    type
+                  </span>
+                  <span
+                    class="token attr-value"
+                  >
+                    <span
+                      class="token punctuation attr-equals"
+                    >
+                      =
+                    </span>
+                    <span
+                      class="token punctuation"
+                    >
+                      "
+                    </span>
+                    submit
+                    <span
+                      class="token punctuation"
+                    >
+                      "
+                    </span>
+                  </span>
+                   
+                  <span
+                    class="token attr-name"
+                  >
+                    disabled
+                  </span>
+                  <span
+                    class="token punctuation"
+                  >
+                    &gt;
+                  </span>
+                </span>
+                
+  Button Native Disabled
+
+                <span
+                  class="token tag"
+                >
+                  <span
+                    class="token tag"
+                  >
+                    <span
+                      class="token punctuation"
+                    >
+                      &lt;/
+                    </span>
+                    button
+                  </span>
+                  <span
+                    class="token punctuation"
+                  >
+                    &gt;
+                  </span>
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="font-semibold dark:text-white text-sm mt-4 mb-2"
+          >
+            Example Test :
+          </p>
+          <div
+            class="Code bg-gray-100 relative dark:bg-neutral-800 text-sm rounded-md border border-transparent dark:border dark:border-neutral-700 "
+            data-testid="code-wrapper-js"
+          >
+            <button
+              class="absolute right-0 m-3 dark:bg-neutral-800 dark:hover:bg-neutral-700 bg-gray-100 hover:bg-gray-200 border dark:border-neutral-700 px-1 py-1 rounded-md transition-all"
+              title="Copy Code"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-5 w-5 text-neutral-500 hover:text-neutral-600 dark:text-gray-400 dark:hover:text-gray-300 transition-all"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <pre
+              class="line-numbers scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-gray-200 dark:scrollbar-thumb-neutral-700 language-javascript"
+              tabindex="0"
+            >
+              <code
+                class="language-javascript"
+                data-testid="code-js"
+              >
+                <span
+                  class="token function"
+                >
+                  test
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  (
+                </span>
+                <span
+                  class="token string"
+                >
+                  'Test toBeDisabled'
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  ,
+                </span>
+                 
+                <span
+                  class="token punctuation"
+                >
+                  (
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  )
+                </span>
+                 
+                <span
+                  class="token operator"
+                >
+                  =&gt;
+                </span>
+                 
+                <span
+                  class="token punctuation"
+                >
+                  {
+                </span>
+                
+  
+                <span
+                  class="token function"
+                >
+                  render
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  (
+                </span>
+                <span
+                  class="token operator"
+                >
+                  &lt;
+                </span>
+                Native 
+                <span
+                  class="token operator"
+                >
+                  /
+                </span>
+                <span
+                  class="token operator"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  )
+                </span>
+                
+  
+                <span
+                  class="token keyword"
+                >
+                  const
+                </span>
+                 button 
+                <span
+                  class="token operator"
+                >
+                  =
+                </span>
+                 screen
+                <span
+                  class="token punctuation"
+                >
+                  .
+                </span>
+                <span
+                  class="token function"
+                >
+                  getByTestId
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  (
+                </span>
+                <span
+                  class="token string"
+                >
+                  'button-native-disabled'
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  )
+                </span>
+                
+  
+                <span
+                  class="token function"
+                >
+                  expect
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  (
+                </span>
+                button
+                <span
+                  class="token punctuation"
+                >
+                  )
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  .
+                </span>
+                <span
+                  class="token function"
+                >
+                  toBeDisabled
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  (
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  )
+                </span>
+                
+
+                <span
+                  class="token punctuation"
+                >
+                  }
+                </span>
+                <span
+                  class="token punctuation"
+                >
+                  )
+                </span>
+              </code>
+            </pre>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="avatar"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            avatar
+          </h5>
+          <div
+            class="mb-3 relative h-8 w-8 border-blue-500 border-2 rounded-full"
+            data-testid="avatar"
+          >
+            <span
+              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+            >
+              <img
+                alt="Image Component"
+                class="mb-3 rounded-full"
+                data-nimg="fill"
+                data-testid="img-component-1"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+              <noscript />
+            </span>
+          </div>
+          <div
+            class="!h-12 !w-12 !border-red-500 relative h-8 w-8 border-blue-500 border-2 rounded-full"
+            data-testid="avatar-md"
+          >
+            <span
+              style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+            >
+              <img
+                alt="Image Component"
+                class="!h-12 !w-12 !border-red-500 rounded-full"
+                data-nimg="fill"
+                data-testid="img-component-2"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+              <noscript />
+            </span>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="progress"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            progress
+          </h5>
+          <div
+            class="
+      mb-2 
+      h-2 
+      w-full bg-gray-200 dark:bg-neutral-800 rounded-full"
+            data-testid="progress"
+          >
+            <div
+              class="h-2  bg-blue-500 rounded-full"
+              style="width: 50%;"
+            />
+          </div>
+          <div
+            class="
+      mb-2 
+      w-full bg-gray-200 dark:bg-neutral-800 rounded-full"
+            data-testid="progress-percentage"
+          >
+            <div
+              class="bg-blue-500 rounded-full text-center text-white text-xs leading-none font-medium p-0.5"
+              style="width: 50%;"
+            >
+              50
+               %
+            </div>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="spinner"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            spinner
+          </h5>
+          <svg
+            class="
+     
+    w-8 h-8
+    w-8 h-8 inline mr-2 text-gray-200 animate-spin dark:text-neutral-700 fill-blue-600"
+            data-testid="spinner"
+            fill="none"
+            role="status"
+            viewBox="0 0 100 101"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
+              fill="currentColor"
+            />
+            <path
+              d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
+              fill="currentFill"
+            />
+          </svg>
+          <svg
+            class="
+     
+    !w-6 !h-6
+    w-8 h-8 inline mr-2 text-gray-200 animate-spin dark:text-neutral-700 fill-blue-600"
+            data-testid="spinner-small"
+            fill="none"
+            role="status"
+            viewBox="0 0 100 101"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
+              fill="currentColor"
+            />
+            <path
+              d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
+              fill="currentFill"
+            />
+          </svg>
+          <svg
+            class="
+     
+    w-8 h-8
+    !w-10 !h-10 inline mr-2 text-gray-200 animate-spin dark:text-neutral-700 fill-blue-600"
+            data-testid="spinner-large"
+            fill="none"
+            role="status"
+            viewBox="0 0 100 101"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
+              fill="currentColor"
+            />
+            <path
+              d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
+              fill="currentFill"
+            />
+          </svg>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="snippet"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            snippet
+          </h5>
+          <div
+            class="flex items-center justify-between gap-x-3 text-sm py-1.5 pl-4 pr-3 dark:text-white border border-gray-300 dark:border-neutral-700 rounded-md mb-1"
+            data-testid="snippet"
+          >
+            <div
+              class="truncate"
+            >
+              <span
+                class="dark:text-white font-medium mr-2.5"
+              >
+                $
+              </span>
+              yarn add @heroicons/react
+            </div>
+            <button
+              class="flex items-center dark:bg-neutral-800 dark:hover:bg-neutral-700 bg-gray-100 hover:bg-gray-200 border dark:border-neutral-700 px-0.5 py-0.5 rounded-md transition-all"
+              data-testid="snippet-btn"
+              title="Copy Code"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-5 w-5 text-neutral-500 hover:text-neutral-600 dark:text-gray-400 dark:hover:text-gray-300 transition-all"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="statusindicator"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            statusindicator
+          </h5>
+          <div
+            class="flex items-center space-x-2 mb-1 "
+            data-testid="status-indicator"
+          >
+            <div
+              class="h-2.5 w-2.5 bg-gray-300 dark:bg-neutral-600 rounded-full"
+            />
+            <span
+              class="text-sm dark:text-white"
+            >
+              Status Normal
+            </span>
+          </div>
+          <div
+            class="flex items-center space-x-2 mb-1 "
+          >
+            <div
+              class="h-2.5 w-2.5 bg-teal-500 rounded-full"
+            />
+            <span
+              class="text-sm dark:text-white"
+            >
+              Success
+            </span>
+          </div>
+          <div
+            class="flex items-center space-x-2 mb-1 "
+          >
+            <div
+              class="h-2.5 w-2.5 bg-orange-500 rounded-full"
+            />
+            <span
+              class="text-sm dark:text-white"
+            >
+              Warning
+            </span>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="textarea"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            textarea
+          </h5>
+          <div
+            class="mb-4"
+          >
+            <textarea
+              class="
+          text-sm rounded-md mt-2 w-full transition-all p-3
+          dark:text-white bg-white dark:bg-neutral-900 
+          border border-gray-300 dark:border-neutral-700
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none
+        "
+              data-testid="textarea-component"
+              placeholder="Textarea Component"
+              type="text"
+            />
+          </div>
+          <p
+            class=" text-sm dark:text-white"
+            data-testid="textarea-value"
+          />
+          <div
+            class="mb-4"
+          >
+            <textarea
+              class="
+          text-sm rounded-md mt-2 w-full p-3 cursor-not-allowed
+          text-neutral-500 bg-gray-100 dark:bg-neutral-800
+          border border-gray-300 dark:border-neutral-700
+        "
+              data-testid="textarea-component-disabled"
+              disabled=""
+              placeholder="Textarea Component Disabled"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="radio"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            radio
+          </h5>
+          <div
+            class="mb-2 text-sm font-medium"
+          >
+            <label
+              class="inline-flex items-center cursor-pointer"
+            >
+              <input
+                class="
+            
+          focus:ring-blue-500 h-4 w-4 text-blue-600 dark:bg-neutral-900 dark:checked:bg-blue-500
+            transition-all cursor-pointer border-gray-300 dark:border-neutral-700
+					"
+                data-testid="radio-red"
+                name="red"
+                type="radio"
+                value="red"
+              />
+              <span
+                class="ml-2 text-gray-700 dark:text-neutral-300"
+              >
+                Red
+              </span>
+            </label>
+          </div>
+          <div
+            class="mb-2 text-sm font-medium"
+          >
+            <label
+              class="inline-flex items-center cursor-pointer"
+            >
+              <input
+                class="
+            
+          focus:ring-blue-500 h-4 w-4 text-blue-600 dark:bg-neutral-900 dark:checked:bg-blue-500
+            transition-all cursor-pointer border-gray-300 dark:border-neutral-700
+					"
+                data-testid="radio-blue"
+                name="blue"
+                type="radio"
+                value="blue"
+              />
+              <span
+                class="ml-2 text-gray-700 dark:text-neutral-300"
+              >
+                Blue
+              </span>
+            </label>
+          </div>
+          <p
+            class=" text-sm dark:text-white"
+            data-testid="radio-value"
+          />
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="checkbox"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            checkbox
+          </h5>
+          <div
+            class="mb-2 text-sm font-medium"
+          >
+            <label
+              class="inline-flex items-center cursor-pointer"
+            >
+              <input
+                class="
+          
+          h-4 w-4 border-gray-300 dark:border-neutral-700 rounded text-blue-500 focus:ring-blue-500 
+          bg-white dark:bg-neutral-900 dark:checked:bg-blue-500
+          transition-all cursor-pointer
+        "
+                data-testid="checkbox-red"
+                name="red"
+                type="checkbox"
+                value="red"
+              />
+              <span
+                class="ml-2 text-gray-700 dark:text-neutral-300"
+              >
+                Red
+              </span>
+            </label>
+          </div>
+          <div
+            class="mb-2 text-sm font-medium"
+          >
+            <label
+              class="inline-flex items-center cursor-pointer"
+            >
+              <input
+                class="
+          
+          h-4 w-4 border-gray-300 dark:border-neutral-700 rounded text-blue-500 focus:ring-blue-500 
+          bg-white dark:bg-neutral-900 dark:checked:bg-blue-500
+          transition-all cursor-pointer
+        "
+                data-testid="checkbox-blue"
+                name="blue"
+                type="checkbox"
+                value="blue"
+              />
+              <span
+                class="ml-2 text-gray-700 dark:text-neutral-300"
+              >
+                Blue
+              </span>
+            </label>
+          </div>
+          <p
+            class=" text-sm dark:text-white"
+            data-testid="checkbox-value"
+          />
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="select"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            select
+          </h5>
+          <div
+            class="mb-4"
+          >
+            <select
+              class="
+          
+          cursor-pointer mt-2 block w-full px-3 py-[0.6rem] text-sm rounded-md transition-all
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500 outline-none
+        "
+              data-testid="select"
+              name="select"
+            >
+              <option
+                data-testid="option-red"
+                value="red"
+              >
+                Red
+              </option>
+              <option
+                data-testid="option-blue"
+                value="blue"
+              >
+                Blue
+              </option>
+            </select>
+          </div>
+          <p
+            class=" text-sm dark:text-white"
+            data-testid="select-value"
+          />
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="input"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            input
+          </h5>
+          <div
+            class=""
+          >
+            <input
+              class="
+           
+          
+          text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none
+        "
+              data-testid="input-component"
+              placeholder="Input Component"
+              type="text"
+              value=""
+            />
+          </div>
+          <p
+            class=" text-sm dark:text-white"
+            data-testid="input-value"
+          />
+          <div
+            class=""
+          >
+            <input
+              class="
+          
+          text-sm w-full px-3 py-[0.6rem] rounded-md mt-2 cursor-not-allowed
+          text-neutral-500 bg-gray-100 dark:bg-neutral-800
+          border border-gray-300 dark:border-neutral-700
+        "
+              data-testid="input-component-disabled"
+              disabled=""
+              placeholder="Input Component Disabled"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="inputpassword"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            inputpassword
+          </h5>
+          <div
+            class=""
+          >
+            <div
+              class="relative flex items-center mt-2"
+            >
+              <input
+                class="
+             
+            dark:text-white bg-white dark:bg-neutral-900 
+            text-sm transition-all w-full px-3 pr-11 py-[0.6rem] rounded-md
+            border border-gray-300 dark:border-neutral-700 
+            focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none
+          "
+                data-testid="inputpassword-component"
+                type="password"
+                value=""
+              />
+              <div
+                aria-label="Show Password"
+                class="z-10 mr-1.5 pr-1.5 pl-2.5 py-1 rounded-md absolute right-0 cursor-pointer"
+                data-testid="inputpassword-btn"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 text-gray-400 dark:text-neutral-600"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <p
+            class=" text-sm dark:text-white"
+            data-testid="inputpassword-value"
+          />
+          <div
+            class=""
+          >
+            <div
+              class="relative flex items-center mt-2"
+            >
+              <input
+                class="
+             
+            cursor-not-allowed text-neutral-500 bg-gray-100 dark:bg-neutral-800 
+            text-sm transition-all w-full px-3 pr-11 py-[0.6rem] rounded-md
+            border border-gray-300 dark:border-neutral-700 
+            focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none
+          "
+                data-testid="inputpassword-component-disabled"
+                disabled=""
+                type="password"
+                value=""
+              />
+              <div
+                aria-label="Show Password"
+                class="z-10 mr-1.5 pr-1.5 pl-2.5 py-1 rounded-md absolute right-0 cursor-pointer"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 text-gray-400 dark:text-neutral-600"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="button"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            button
+          </h5>
+          <button
+            class="
+				text-sm text-white transition-all outline-none px-3 py-1.5 font-medium bg-blue-500 
+				my-2 block 
+				rounded
+				hover:bg-blue-600 
+				"
+            data-testid="button-component"
+          >
+            Button Component
+          </button>
+          <button
+            class="
+				text-sm text-white transition-all outline-none px-3 py-1.5 font-medium bg-blue-500 
+				my-2 block 
+				rounded-full
+				hover:bg-blue-600 
+				"
+            data-testid="button-component-pills"
+          >
+            Button Component
+          </button>
+          <button
+            class="
+				text-sm text-white transition-all outline-none px-3 py-1.5 font-medium bg-blue-500 
+				my-2 block 
+				rounded
+				cursor-not-allowed 
+				"
+            data-testid="button-component-disabled"
+            disabled=""
+          >
+            Button Component Disabled
+          </button>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="buttonoutline"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            buttonoutline
+          </h5>
+          <button
+            class="
+				text-sm text-blue-500 transition-all outline-none px-3 py-1.5 font-medium border border-blue-500 
+				my-2 block 
+				rounded
+				hover:text-white hover:bg-blue-500 
+				"
+            data-testid="button-outline-component"
+          >
+            Button Outline Component
+          </button>
+          <button
+            class="
+				text-sm text-blue-500 transition-all outline-none px-3 py-1.5 font-medium border border-blue-500 
+				my-2 block 
+				rounded-full
+				hover:text-white hover:bg-blue-500 
+				"
+            data-testid="button-outline-component-pills"
+          >
+            Button Outline Component
+          </button>
+          <button
+            class="
+				text-sm text-blue-500 transition-all outline-none px-3 py-1.5 font-medium border border-blue-500 
+				my-2 block 
+				rounded
+				cursor-not-allowed 
+				"
+            data-testid="button-outline-component-disabled"
+            disabled=""
+          >
+            Button Outline Component Disabled
+          </button>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="linkbutton"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            link button
+          </h5>
+          <a
+            aria-label="Home page"
+            class="
+				
+				rounded
+				text-sm transition-all px-3 py-1.5 font-medium bg-blue-500 hover:bg-blue-600 text-white"
+            data-testid="linkbutton-component"
+            href="/#"
+            title="A link to start over"
+          >
+            Link Button
+          </a>
+          <br />
+          <br />
+          <a
+            class="
+				
+				rounded-full
+				text-sm transition-all px-3 py-1.5 font-medium bg-blue-500 hover:bg-blue-600 text-white"
+            data-testid="linkbutton-component-pills"
+            href="/#"
+          >
+            Link Button Pills
+          </a>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="linkbuttonoutline"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            link button outline
+          </h5>
+          <a
+            aria-label="Home page"
+            class="
+				
+				rounded
+				text-sm transition-all px-3 py-1.5 font-medium text-blue-500 hover:text-white border border-blue-500 hover:bg-blue-600"
+            data-testid="linkbutton-outline-component"
+            href="/#"
+            title="A link to start over"
+          >
+            Link Button Outline
+          </a>
+          <br />
+          <br />
+          <a
+            class="
+				
+				rounded-full
+				text-sm transition-all px-3 py-1.5 font-medium text-blue-500 hover:text-white border border-blue-500 hover:bg-blue-600"
+            data-testid="linkbutton-outline-component-pills"
+            href="/#"
+          >
+            Link Button Outline Pills
+          </a>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="alert"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            alert
+          </h5>
+          <div
+            class="
+       
+      text-xs 
+      rounded-lg
+      p-3 mb-2 text-blue-600 bg-opacity-10 bg-blue-600"
+            data-testid="alert"
+          >
+            Alert
+          </div>
+          <div
+            class="
+       
+      text-xs 
+      rounded-full
+      p-3 mb-2 text-blue-600 bg-opacity-10 bg-blue-600"
+            data-testid="alert-pills"
+          >
+            Alert Pills
+          </div>
+          <div
+            class="
+       
+      text-sm 
+      rounded-lg
+      p-3 mb-2 text-blue-600 bg-opacity-10 bg-blue-600"
+            data-testid="alert-large"
+          >
+            Alert Large
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="alertoutline"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            alertoutline
+          </h5>
+          <div
+            class="
+       
+      text-xs 
+      rounded-lg
+      p-3 mb-2 text-blue-600 border border-blue-500"
+            data-testid="alertoutline"
+          >
+            Alert Outline
+          </div>
+          <div
+            class="
+       
+      text-xs 
+      rounded-full
+      p-3 mb-2 text-blue-600 border border-blue-500"
+            data-testid="alertoutline-pills"
+          >
+            Alert Outline Pills
+          </div>
+          <div
+            class="
+       
+      text-sm 
+      rounded-lg
+      p-3 mb-2 text-blue-600 border border-blue-500"
+            data-testid="alertoutline-large"
+          >
+            Alert Outline Large
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="badge"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            badge
+          </h5>
+          <span
+            class="
+      mr-3  
+      text-xs 
+      rounded
+      font-medium px-[0.4rem] pt-[0.2rem] pb-[0.25rem] bg-blue-100 text-blue-600"
+            data-testid="badge"
+          >
+            Badge
+          </span>
+          <span
+            class="
+      mr-3  
+      text-xs 
+      rounded-full
+      font-medium px-[0.4rem] pt-[0.2rem] pb-[0.25rem] bg-blue-100 text-blue-600"
+            data-testid="badge-pills"
+          >
+            Badge Pills
+          </span>
+          <span
+            class="
+      mr-3  
+      text-sm 
+      rounded
+      font-medium px-[0.4rem] pt-[0.2rem] pb-[0.25rem] bg-blue-100 text-blue-600"
+            data-testid="badge-large"
+          >
+            Badge Large
+          </span>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="badgeoutline"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            badgeoutline
+          </h5>
+          <span
+            class="
+      mr-3  
+      text-xs
+      rounded 
+      font-medium px-[0.4rem] pt-[0.2rem] pb-[0.25rem] text-blue-500 border border-blue-500"
+            data-testid="badgeoutline"
+          >
+            Badge Outline
+          </span>
+          <span
+            class="
+      mr-3  
+      text-xs
+      rounded-full 
+      font-medium px-[0.4rem] pt-[0.2rem] pb-[0.25rem] text-blue-500 border border-blue-500"
+            data-testid="badgeoutline-pills"
+          >
+            Badge Outline Pills
+          </span>
+          <span
+            class="
+      mr-3  
+      text-sm !pt-[0.1rem] !pb-[0.1rem]
+      rounded 
+      font-medium px-[0.4rem] pt-[0.2rem] pb-[0.25rem] text-blue-500 border border-blue-500"
+            data-testid="badgeoutline-large"
+          >
+            Badge Outline Large
+          </span>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="heading"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            heading
+          </h5>
+          <h1
+            class="dark:text-white text-4xl mb-4 font-semibold"
+            data-testid="heading"
+          >
+            Heading
+          </h1>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="kbd"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            kbd
+          </h5>
+          <kbd
+            class="px-2 py-1 text-xs font-semibold text-gray-800 dark:text-gray-100 bg-gray-100 dark:bg-neutral-800 border 
+    border-gray-200 rounded-lg dark:border-neutral-600 shadow-md "
+          >
+            Ctrl
+          </kbd>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="label"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            label
+          </h5>
+          <label
+            class="undefined text-sm block text-gray-800 dark:text-neutral-100"
+            data-testid="label"
+          >
+            Label
+          </label>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="note"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            note
+          </h5>
+          <div
+            class="text-sm py-2 px-4 dark:text-white border border-gray-300 dark:border-neutral-700 rounded-md undefined"
+          >
+            <span
+              class="dark:text-white font-medium mr-1 undefined"
+            >
+              Note Title : 
+            </span>
+            Note Description
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="text"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            text
+          </h5>
+          <p
+            class=" text-sm dark:text-white"
+            data-testid="text"
+          >
+            Text
+          </p>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="divider"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            divider
+          </h5>
+          <div
+            class="mb-4  p-2.5"
+            data-testid="divider"
+          >
+            <div
+              class="border-b border-neutral-200 dark:border-neutral-700"
+            />
+          </div>
+          <div
+            class=" p-2.5 relative"
+            data-testid="divider-center"
+          >
+            <div
+              class="border-b border-neutral-200 dark:border-neutral-700"
+            />
+            <span
+              class="whitespace-nowrap px-3 dark:text-dark-400 text-gray-400 text-sm absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white dark:bg-neutral-900"
+            >
+              Divider Text Center
+            </span>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="card"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            card
+          </h5>
+          <div
+            class="undefined p-4 sm:p-6 rounded-lg border dark:border-neutral-800"
+            data-testid="card"
+          >
+            <p
+              class=" text-sm dark:text-white"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+            </p>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="container"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            container
+          </h5>
+          <div
+            class="
+         
+        p-8 
+        relative mb-2 rounded-md border border-slate-200 dark:border-neutral-900 bg-white dark:bg-neutral-800"
+            data-testid="container"
+          >
+            <p
+              class=" text-sm dark:text-white"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+            </p>
+          </div>
+          <div
+            class="
+         
+        p-4 
+        relative mb-2 rounded-md border border-slate-200 dark:border-neutral-900 bg-white dark:bg-neutral-800"
+            data-testid="container-medium"
+          >
+            <p
+              class=" text-sm dark:text-white"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+            </p>
+          </div>
+        </div>
+        <div
+          class="my-8 pt-14"
+          id="section"
+        >
+          <h5
+            class="mb-2 italic dark:text-white text-lg mb-4 font-semibold"
+          >
+            section
+          </h5>
+          <section
+            class=" my-2"
+            data-testid="section"
+            id="section"
+          >
+            <h4
+              class="italic dark:text-white text-xl mb-4 font-semibold"
+            >
+              Section Title
+            </h4>
+            <div
+              class="mb-2"
+            >
+              <p
+                class=" text-sm dark:text-white"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+              </p>
+            </div>
+          </section>
+        </div>
+        <div
+          class="flex items-center gap-x-2"
+        >
+          <button
+            class="false text-sm bg-teal-600 hover:bg-teal-700 transition-all text-white px-2 py-1 rounded"
+            data-testid="counter-btn-count"
+          >
+            Count
+          </button>
+          <p
+            class="dark:text-white"
+            data-testid="counter-count"
+          >
+            1
+          </p>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`renders native page unchanged 1`] = `
+<div>
+  <div>
+    <main
+      class="dark:bg-neutral-900 min-h-screen"
+    >
+      <div
+        class="sticky top-0 z-10 bg-white dark:bg-neutral-900 border dark:border-neutral-800 shadow-sm"
+      >
+        <div
+          class="flex items-center justify-between gap-3 p-4 max-w-5xl mx-auto"
+        >
+          <nav
+            class="flex flex-wrap items-center gap-x-4 gap-y-2"
+          >
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/"
+            >
+              Components
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/native"
+            >
+              Native
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/example"
+            >
+              Example
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-native"
+            >
+              Playwright Native
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-example"
+            >
+              Playwright Example
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-locator"
+            >
+              Playwright Locator
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-form"
+            >
+              Playwright Form
+            </a>
+            <a
+              class="text-blue-500 hover:text-blue-600 transition-all text-sm font-medium"
+              href="/playwright-forms"
+            >
+              Playwright Forms
+            </a>
+          </nav>
+          <button
+            aria-label="Change Theme"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-5 w-5 text-gray-700 dark:text-gray-200"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="max-w-5xl mx-auto p-4"
+      >
+        <h1
+          class="text-3xl text-neutral-800 dark:text-white font-semibold tracking-wide mb-8 mt-4"
+          data-testid="heading"
+        >
+          Native Test
+        </h1>
+        <div
+          class="grid sm:grid-cols-2 md:grid-cols-3 mb-8 "
+        >
+          <div>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toBeDisabled"
+            >
+              toBeDisabled
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toBeEmptyDOMElement"
+            >
+              toBeEmptyDOMElement
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toBeInTheDocument"
+            >
+              toBeInTheDocument
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toBeRequired"
+            >
+              toBeRequired
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toBeValid"
+            >
+              toBeValid
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toBeInvalid"
+            >
+              toBeInvalid
+            </a>
+          </div>
+          <div>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toBeVisible"
+            >
+              toBeVisible
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toBeChecked"
+            >
+              toBeChecked
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toContainElement"
+            >
+              toContainElement
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toHaveAccessibleDescription"
+            >
+              toHaveAccessibleDescription
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toHaveAccessibleName"
+            >
+              toHaveAccessibleName
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toHaveAttribute"
+            >
+              toHaveAttribute
+            </a>
+          </div>
+          <div>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toHaveClass"
+            >
+              toHaveClass
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toHaveFocus"
+            >
+              toHaveFocus
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toHaveFormValues"
+            >
+              toHaveFormValues
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toHaveTextContent"
+            >
+              toHaveTextContent
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toHaveValue"
+            >
+              toHaveValue
+            </a>
+            <a
+              class="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1"
+              href="#toHaveDisplayValue"
+            >
+              toHaveDisplayValue
+            </a>
+          </div>
+        </div>
+        <div
+          class="my-4"
+        >
+          <button
+            class="block my-2 rounded text-sm text-white transition-all outline-none px-3 py-1.5 font-medium bg-blue-500 hover:bg-blue-600 hover:cursor-pointer transition-all"
+            data-testid="button-native"
+            type="submit"
+          >
+            Button Native
+          </button>
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="input-native"
+            placeholder="Input Native"
+            type="text"
+          />
+        </div>
+        <div
+          class="pt-14"
+          id="toBeDisabled"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toBeDisabled
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toBeDisabled"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check whether an element is disabled from the user's perspective. According to the specification, the following elements can be disabled: button, input, select, textarea, optgroup, option, fieldset, and custom elements. This custom matcher considers an element as disabled if the element is among the types of elements that can be disabled (listed above), and the disabled attribute is present. It will also consider the element as disabled if it's inside a parent form element that supports being disabled and has the disabled attribute present.
+          </p>
+          <button
+            class="block mt-4 rounded text-sm text-white transition-all outline-none px-3 py-1.5 font-medium bg-blue-500 hover:bg-blue-600 cursor-not-allowed"
+            data-testid="button-native-disabled"
+            disabled=""
+            type="submit"
+          >
+            Button Native Disabled
+          </button>
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none cursor-not-allowed"
+            data-testid="input-native-disabled"
+            disabled=""
+            placeholder="Input Native Disabled"
+            type="text"
+          />
+          <a
+            class="my-2 text-blue-500 hover:text-blue-600 transition-all block"
+            disabled=""
+            href="#"
+          >
+            link
+          </a>
+        </div>
+        <div
+          class="pt-14"
+          id="toBeEmptyDOMElement"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toBeEmptyDOMElement
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toBeEmptyDOMElement"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to assert whether an element has no visible content for the user. It ignores comments but will fail if the element contains white-space.
+          </p>
+          <span
+            data-testid="not-empty"
+          >
+            <span
+              data-testid="empty"
+            />
+          </span>
+          <span
+            data-testid="with-whitespace"
+          >
+             
+          </span>
+          <span
+            data-testid="with-comment"
+          />
+        </div>
+        <div
+          class="pt-14"
+          id="toBeInTheDocument"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toBeInTheDocument
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toBeInTheDocument"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to assert whether an element is present in the document or not.
+          </p>
+          <span
+            data-testid="html-element"
+          >
+            <span
+              class="dark:text-white text-sm"
+            >
+              Html Element
+            </span>
+          </span>
+          <svg
+            class="border border-red-500 rounded mt-2"
+            data-testid="svg-element"
+          />
+        </div>
+        <div
+          class="pt-14"
+          id="toBeRequired"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toBeRequired
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toBeRequired"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check if a form element is currently required.
+An element is required if it is having a required or aria-required="true" attribute.
+          </p>
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="required-input"
+            required=""
+          />
+          <input
+            aria-required="true"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="aria-required-input"
+          />
+          <input
+            aria-required="false"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="conflicted-input"
+            required=""
+          />
+          <input
+            aria-required="false"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="aria-not-required-input"
+          />
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="optional-input"
+          />
+          <input
+            alt="image"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="unsupported-type"
+            required=""
+            type="image"
+          />
+          <select
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none hover:cursor-pointer"
+            data-testid="select"
+            required=""
+          >
+            <option
+              value="optiona"
+            >
+              Option A
+            </option>
+            <option
+              value="optionb"
+            >
+              Option B
+            </option>
+          </select>
+          <textarea
+            class="h-16 text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="textarea"
+            required=""
+          />
+          <div
+            class="border border-red-500 h-10 rounded mt-2"
+            data-testid="supported-role"
+            required=""
+            role="tree"
+          />
+          <div
+            aria-required="true"
+            class="border border-red-500 h-10 rounded mt-2"
+            data-testid="supported-role-aria"
+            role="tree"
+          />
+        </div>
+        <div
+          class="pt-14"
+          id="toBeValid"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toBeValid
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toBeValid"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check if the value of an element, is currently valid.
+An element is valid if it has no aria-invalid attributes or an attribute value of "false". The result of checkValidity() must also be true if it's a form element.
+          </p>
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="no-aria-invalidd"
+          />
+          <input
+            aria-invalid="true"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="aria-invalidd"
+          />
+          <input
+            aria-invalid="true"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="aria-invalid-valuee"
+          />
+          <input
+            aria-invalid="false"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="aria-invalid-falsee"
+          />
+          <form
+            data-testid="valid-formm"
+          >
+            <input
+              class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            />
+          </form>
+          <form
+            data-testid="invalid-formm"
+          >
+            <input
+              class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+              required=""
+            />
+          </form>
+        </div>
+        <div
+          class="pt-14"
+          id="toBeInvalid"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toBeInvalid
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toBeInvalid"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check if an element, is currently invalid. An element is invalid if it has an aria-invalid attribute with no value or a value of true, or if the result of checkValidity() is false. Examples
+          </p>
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="no-aria-invalid"
+          />
+          <input
+            aria-invalid="true"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="aria-invalid"
+          />
+          <input
+            aria-invalid="true"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="aria-invalid-value"
+          />
+          <input
+            aria-invalid="false"
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="aria-invalid-false"
+          />
+          <form
+            data-testid="valid-form"
+          >
+            <input
+              class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            />
+          </form>
+          <form
+            data-testid="invalid-form"
+          >
+            <input
+              class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+              required=""
+            />
+          </form>
+        </div>
+        <div
+          class="pt-14"
+          id="toBeVisible"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toBeVisible
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toBeVisible"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check if an element is currently visible to the user.
+An element is visible if all the following conditions are met: 
+          </p>
+          <ol
+            class="mb-2 text-gray-700 dark:text-gray-300 text-sm list-decimal list-inside"
+          >
+            <li>
+              it is present in the document
+            </li>
+            <li>
+              it does not have its css property display set to none
+            </li>
+            <li>
+              it does not have its css property visibility set to either hidden or collapse
+            </li>
+            <li>
+              it does not have its css property opacity set to 0
+            </li>
+            <li>
+              its parent element is also visible (and so on up to the top of the DOM tree)
+            </li>
+            <li>
+              it does not have the hidden attribute
+            </li>
+            <li>
+              if details it has the open attribute
+            </li>
+          </ol>
+          <div
+            data-testid="zero-opacity"
+            style="opacity: 0;"
+          >
+            Zero Opacity Example
+          </div>
+          <div
+            data-testid="visibility-hidden"
+            style="visibility: hidden;"
+          >
+            Visibility Hidden Example
+          </div>
+          <div
+            data-testid="display-none"
+            style="display: none;"
+          >
+            Display None Example
+          </div>
+          <div
+            style="opacity: 0;"
+          >
+            <span
+              data-testid="hidden-parent"
+            >
+              Hidden Parent Example
+            </span>
+          </div>
+          <div
+            class="text-sm dark:text-white my-4"
+            data-testid="visible"
+          >
+            Visible Example
+          </div>
+          <div
+            class="text-sm dark:text-white"
+            data-testid="hidden-attribute"
+            hidden=""
+          >
+            Hidden Attribute Example
+          </div>
+          <details
+            class="text-sm dark:text-white my-4"
+          >
+            <summary>
+              Title of hidden text
+            </summary>
+            Hidden Details Example
+          </details>
+          <details
+            class="text-sm dark:text-white my-4"
+            open=""
+          >
+            <summary>
+              Title of visible text
+            </summary>
+            <div>
+              Visible Details Example
+            </div>
+          </details>
+        </div>
+        <div
+          class="pt-14"
+          id="toBeChecked"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toBeChecked
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toBeChecked"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check whether the given element is checked. It accepts an input of type checkbox or radio and elements with a role of checkbox, radio or switch with a valid aria-checked attribute of "true" or "false".
+          </p>
+          <input
+            checked=""
+            class="block my-2"
+            data-testid="input-checkbox-checked"
+            type="checkbox"
+          />
+          <input
+            class="block my-2"
+            data-testid="input-checkbox-unchecked"
+            type="checkbox"
+          />
+          <input
+            checked=""
+            class="block my-2"
+            data-testid="input-radio-checked"
+            type="radio"
+            value="foo"
+          />
+          <input
+            class="block my-2"
+            data-testid="input-radio-unchecked"
+            type="radio"
+            value="foo"
+          />
+        </div>
+        <div
+          class="pt-14"
+          id="toContainElement"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toContainElement
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toContainElement"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to assert whether an element contains another element as a descendant or not.
+          </p>
+          <span
+            data-testid="ancestor"
+          >
+            <span
+              data-testid="descendant"
+            />
+          </span>
+        </div>
+        <div
+          class="pt-14"
+          id="toHaveAccessibleDescription"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toHaveAccessibleDescription
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toHaveAccessibleDescription"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to assert that an element has the expected accessible description.
+          </p>
+          <a
+            aria-label="Home page"
+            class="text-sm underline block text-blue-500 my-2"
+            data-testid="link"
+            href="#"
+            title="A link to start over"
+          >
+            Link to Start
+          </a>
+          <a
+            aria-label="About page"
+            class="text-sm underline block text-blue-500 my-2"
+            data-testid="extra-link"
+            href="#"
+          >
+            Link to About
+          </a>
+          <img
+            alt="User profile pic"
+            class="h-20 w-20 my-2"
+            data-testid="avatar"
+            src="favicon.ico"
+          />
+          <img
+            alt="Company logo"
+            aria-describedby="t1"
+            class="h-20 w-20"
+            data-testid="logo"
+            src="favicon.ico"
+          />
+          <span
+            class="dark:text-white text-xs"
+            id="t1"
+            role="presentation"
+          >
+            The logo of Our Company
+          </span>
+        </div>
+        <div
+          class="pt-14"
+          id="toHaveAccessibleName"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toHaveAccessibleName
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toHaveAccessibleName"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to assert that an element has the expected accessible name. It is useful, for instance, to assert that form elements and buttons are properly labelled.
+          </p>
+          <img
+            alt="Test alt"
+            class="h-20 w-20 my-2"
+            data-testid="img-alt"
+            src="favicon.ico"
+          />
+          <img
+            alt=""
+            class="h-20 w-20 my-2"
+            data-testid="img-empty-alt"
+            src="favicon.ico"
+          />
+          <svg
+            class="border border-red-500 rounded"
+            data-testid="svg-title"
+          >
+            <title>
+              Test title
+            </title>
+          </svg>
+          <button
+            data-testid="button-img-alt"
+          >
+            <img
+              alt="Test"
+              class="h-20 w-20 my-2"
+              src="favicon.ico"
+            />
+          </button>
+          <p
+            class="dark:text-white text-sm mb-4"
+          >
+            <img
+              alt=""
+              class="h-20 w-20 my-2"
+              data-testid="img-paragraph"
+              src="favicon.ico"
+            />
+            Test content
+          </p>
+          <button
+            class="border rounded p-4"
+            data-testid="svg-button"
+          >
+            <svg
+              class="border border-red-500 rounded p-4"
+            >
+              <title>
+                Test
+              </title>
+            </svg>
+          </button>
+          <div
+            class="my-4"
+          >
+            <svg
+              class="border border-red-500 rounded"
+              data-testid="svg-without-title"
+            />
+          </div>
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="input-title"
+            title="test"
+          />
+        </div>
+        <div
+          class="pt-14"
+          id="toHaveAttribute"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toHaveAttribute
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toHaveAttribute"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check whether the given element has an attribute or not.
+          </p>
+          <button
+            class="block my-2 rounded text-sm text-white transition-all outline-none px-3 py-1.5 font-medium bg-blue-500 hover:bg-blue-600 hover:cursor-pointer transition-all"
+            data-testid="ok-button"
+            disabled=""
+            type="submit"
+          >
+            Ok Button
+          </button>
+        </div>
+        <div
+          class="pt-14"
+          id="toHaveClass"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toHaveClass
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toHaveClass"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check whether the given element has certain classes within its class attribute.
+You must provide at least one class, unless you are asserting that an element does not have any classes.
+          </p>
+          <button
+            class="btn extra btn-danger text-sm text-white py-1 px-2 block rounded my-3 bg-blue-500 hover:bg-blue-600 hover:cursor-pointer transition-all"
+            data-testid="delete-button"
+          >
+            Delete item
+          </button>
+          <button
+            data-testid="no-classes"
+          >
+            No Classes
+          </button>
+        </div>
+        <div
+          class="pt-14"
+          id="toHaveFocus"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toHaveFocus
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toHaveFocus"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to assert whether an element has focus or not.
+          </p>
+          <div>
+            <input
+              class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+              data-testid="element-to-focus"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="pt-14"
+          id="toHaveFormValues"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toHaveFormValues
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toHaveFormValues"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check if a form or fieldset contains form controls for each given name, and having the specified value.
+          </p>
+          <form
+            data-testid="login-form"
+          >
+            <input
+              class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+              name="username"
+              type="text"
+              value="john.doe"
+            />
+            <input
+              class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+              name="password"
+              type="password"
+              value="12345678"
+            />
+            <input
+              checked=""
+              class="mt-2 text-sm dark:text-white pl-4 dark:checked:bg-blue-500"
+              name="rememberMe"
+              type="checkbox"
+            />
+            <button
+              class="block my-2 rounded text-sm text-white transition-all outline-none px-3 py-1.5 font-medium bg-blue-500 hover:bg-blue-600 hover:cursor-pointer transition-all"
+              type="submit"
+            >
+              Sign in
+            </button>
+          </form>
+        </div>
+        <div
+          class="pt-14"
+          id="toHaveTextContent"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toHaveTextContent
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toHaveTextContent"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check whether the given node has a text content or not. This supports elements, but also text nodes and fragments.
+When a string argument is passed through, it will perform a partial case-sensitive match to the node content.
+To perform a case-insensitive match, you can use a RegExp with the /i modifier.
+If you want to match the whole content, you can use a RegExp to do it.
+          </p>
+          <span
+            class="dark:text-white"
+            data-testid="text-content"
+          >
+            Text Content
+          </span>
+        </div>
+        <div
+          class="pt-14"
+          id="toHaveValue"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toHaveValue
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toHaveValue"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check whether the given form element has the specified value. It accepts &lt;input&gt;, &lt;select&gt; and &lt;textarea&gt; elements with the exception of &lt;input type="checkbox"&gt; and &lt;input type="radio"&gt;, which can be meaningfully matched only using toBeChecked or toHaveFormValues.
+For all other form elements, the value is matched using the same algorithm as in toHaveFormValues does.
+          </p>
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="input-text"
+            type="text"
+            value="text"
+          />
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="input-number"
+            type="number"
+            value="5"
+          />
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="input-empty"
+            type="text"
+          />
+          <select
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            data-testid="select-number"
+          >
+            <option
+              value="first"
+            >
+              First Value
+            </option>
+            <option
+              value="second"
+            >
+              Second Value
+            </option>
+            <option
+              value="third"
+            >
+              Third Value
+            </option>
+          </select>
+        </div>
+        <div
+          class="pt-14"
+          id="toHaveDisplayValue"
+        >
+          <div
+            class="flex items-center gap-x-2"
+          >
+            <h5
+              class="dark:text-white font-semibold text-lg"
+            >
+              toHaveDisplayValue
+            </h5>
+            <a
+              class="text-blue-500 text-xs font-semibold pt-1"
+              href="https://github.com/testing-library/jest-dom#toHaveDisplayValue"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Docs
+            </a>
+          </div>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm mb-2"
+          >
+            This allows you to check whether the given form element has the specified displayed value (the one the end user will see). It accepts &lt;input&gt;, &lt;select&gt; and &lt;textarea&gt; elements with the exception of &lt;input type="checkbox"&gt; and &lt;input type="radio"&gt;, which can be meaningfully matched only using toBeChecked or toHaveFormValues.
+          </p>
+          <label
+            class="text-sm dark:text-white block mt-4"
+            for="input-example"
+          >
+            First name
+          </label>
+          <input
+            class="text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            id="input-example"
+            type="text"
+            value="text"
+          />
+          <label
+            class="text-sm dark:text-white block mt-4"
+            for="textarea-example"
+          >
+            Description
+          </label>
+          <textarea
+            class="h-16 text-sm transition-all w-full px-3 py-[0.6rem] rounded-md mt-2
+          dark:text-white bg-white dark:bg-neutral-900  
+          border border-gray-300 dark:border-neutral-700 
+          focus:ring-1 focus:ring-blue-500 focus:border-blue-500 outline-none"
+            id="textarea-example"
+          >
+            text
+          </textarea>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;
