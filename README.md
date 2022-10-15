@@ -16,17 +16,15 @@ Initializing project in '.'
 
 add package.json script :
 ```
-"test:e2e": "playwright test"
+"test-e2e": "playwright test"
+"test-report": "playwright show-report",
+"test-trace": "playwright show-trace trace.zip",
+"test-generator": "playwright codegen http://localhost:3000"
 ```
 
 Install Browser
 ```
 npx playwright install
-```
-
-Test Generator
-```
-npx playwright codegen http://localhost:3000/
 ```
 
 ### add playwright-test extension in VS Code
@@ -54,6 +52,7 @@ docs :
 
 command :
 ```
+yarn test
 yarn test-watch
 yarn test-watch Code
 yarn test-detail -u
