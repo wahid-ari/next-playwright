@@ -67,6 +67,9 @@ export default function Native() {
               <a href="#uncheck" className="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1">
                 uncheck
               </a>
+              <a href="#setChecked" className="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1">
+                setChecked
+              </a>
               <a href="#selectOption" className="text-sm text-blue-500 hover:text-blue-600 transition-all block my-1">
                 selectOption
               </a>
@@ -367,6 +370,61 @@ test('Test uncheck', async ({ page }) => {
             />
           </PlaywrightWrapper>
 
+          {/* Page uncheck*/}
+          <PlaywrightWrapper
+            title="uncheck"
+            link="https://playwright.dev/docs/api/class-locator#locator-uncheck"
+            description={`Ensure that checkbox or radio element is unchecked.`}
+          >
+            <input type="checkbox" data-testid='uncheck' defaultChecked />
+            <Code lang='html'
+              code={`<input type="checkbox" defaultChecked />`}
+            />
+            <Code
+              code={`import { test } from '@playwright/test';
+              
+test('test uncheck', async ({ page }) => {
+  await page.goto('/playwright-locator');
+  const element = page.getByTestId('uncheck');
+  const isChecked = await element.isChecked();
+  console.log(isChecked);
+  expect(isChecked).toBe(true);
+  await element.uncheck();
+  const isUnchecked = await element.isChecked();
+  console.log(isUnchecked);
+  expect(isUnchecked).toBe(false);
+})`}
+            />
+          </PlaywrightWrapper>
+          
+          {/* Page setChecked*/}
+          <PlaywrightWrapper
+            title="setChecked"
+            link="https://playwright.dev/docs/api/class-locator#locator-set-checked"
+            description={`Set the state of a checkbox or a radio element.`}
+          >
+            <input type="checkbox" data-testid='setChecked' />
+            <Code lang='html'
+              code={`<input type="checkbox" />`}
+            />
+            <Code
+              code={`import { test } from '@playwright/test';
+              
+test('test setChecked', async ({ page }) => {
+  await page.goto('/playwright-locator');
+  const element = page.getByTestId('setChecked');
+  await element.setChecked(true);
+  const isChecked = await element.isChecked();
+  console.log(isChecked);
+  expect(isChecked).toBe(true);
+  await element.setChecked(false);
+  const isUnchecked = await element.isChecked();
+  console.log(isUnchecked);
+  expect(isUnchecked).toBe(false);
+})`}
+            />
+          </PlaywrightWrapper>
+
           {/* Page selectOption*/}
           <PlaywrightWrapper
             title="selectOption"
@@ -399,8 +457,9 @@ test('Test selectOption', async ({ page }) => {
             link="https://playwright.dev/docs/api/class-locator#locator-is-checked"
             description={`Returns whether the element is checked. Throws if the element is not a checkbox or radio input.`}
           >
+            <input type="checkbox" data-testid='isChecked' defaultChecked />
             <Code lang='html'
-              code={`<input type="checkbox" checked="true" />`}
+              code={`<input type="checkbox" defaultChecked />`}
             />
             <Code
               code={`import { test } from '@playwright/test';
@@ -408,7 +467,8 @@ test('Test selectOption', async ({ page }) => {
 test('Test isChecked', async ({ page }) => {
   const checkbox = page.getByRole('checkbox');
   const isChecked = await checkbox.isChecked();
-  console.log(isChecked)
+  console.log(isChecked);
+  expect(isChecked).toBe(true);
 })`}
             />
           </PlaywrightWrapper>
@@ -419,6 +479,9 @@ test('Test isChecked', async ({ page }) => {
             link="https://playwright.dev/docs/api/class-locator#locator-is-disabled"
             description={`Returns whether the element is disabled, the opposite of enabled.`}
           >
+            <button type="submit" disabled data-testid='isDisabled' className="bg-blue-500 text-white px-2 py-0.5 rounded cursor-pointer disabled:cursor-not-allowed">
+              Button
+            </button>
             <Code lang='html'
               code={`<button type="submit" disabled>
   Button
@@ -430,7 +493,8 @@ test('Test isChecked', async ({ page }) => {
 test('Test isDisabled', async ({ page }) => {
   const button = page.getByRole('button', { name: 'Button' });
   const isDisabled = await button.isDisabled();
-  console.log(isDisabled)
+  console.log(isDisabled);
+  expect(isDisabled).toBe(true)
 })`}
             />
           </PlaywrightWrapper>
@@ -441,6 +505,7 @@ test('Test isDisabled', async ({ page }) => {
             link="https://playwright.dev/docs/api/class-locator#locator-is-editable"
             description={`Returns whether the element is editable.`}
           >
+            <input type="text" placeholder='Input' data-testid='isEditable' />
             <Code lang='html'
               code={`<input type="text" placeholder='Input'/>`}
             />
@@ -450,7 +515,8 @@ test('Test isDisabled', async ({ page }) => {
 test('Test isEditable', async ({ page }) => {
   const input = page.getByRole('input');
   const isEditable = await input.isEditable();
-  console.log(isEditable)
+  console.log(isEditable);
+  expect(isEditable).toBe(true);
 })`}
             />
           </PlaywrightWrapper>
@@ -461,6 +527,7 @@ test('Test isEditable', async ({ page }) => {
             link="https://playwright.dev/docs/api/class-locator#locator-is-enabled"
             description={`Returns whether the element is enabled.`}
           >
+            <input type="text" placeholder='Input' data-testid='isEnabled' />
             <Code lang='html'
               code={`<input type="text" placeholder='Input'/>`}
             />
@@ -470,7 +537,8 @@ test('Test isEditable', async ({ page }) => {
 test('Test isEnabled', async ({ page }) => {
   const input = page.getByRole('input');
   const isEnabled = await input.isEnabled();
-  console.log(isEnabled)
+  console.log(isEnabled);
+  expect(isEnabled).toBe(true);
 })`}
             />
           </PlaywrightWrapper>
@@ -481,6 +549,7 @@ test('Test isEnabled', async ({ page }) => {
             link="https://playwright.dev/docs/api/class-locator#locator-is-hidden"
             description={`Returns whether the element is hidden, the opposite of visible.`}
           >
+            <input type="hidden" data-testid='isHidden' />
             <Code lang='html'
               code={`<input type="hidden"/>`}
             />
@@ -490,7 +559,8 @@ test('Test isEnabled', async ({ page }) => {
 test('Test isHidden', async ({ page }) => {
   const input = page.getByRole('input');
   const isHidden = await input.isHidden();
-  console.log(isHidden)
+  console.log(isHidden);
+  expect(isHidden).toBe(true);
 })`}
             />
           </PlaywrightWrapper>
@@ -501,6 +571,7 @@ test('Test isHidden', async ({ page }) => {
             link="https://playwright.dev/docs/api/class-locator#locator-is-visible"
             description={`Returns whether the element is visible.`}
           >
+            <input type="text" placeholder='Input' data-testid='isVisible' />
             <Code lang='html'
               code={`<input type="text" placeholder='Input' />`}
             />
@@ -510,7 +581,8 @@ test('Test isHidden', async ({ page }) => {
 test('Test isVisible', async ({ page }) => {
   const input = page.getByRole('input');
   const isVisible = await input.isVisible();
-  console.log(isVisible)
+  console.log(isVisible);
+  expect(isVisible).toBe(true);
 })`}
             />
           </PlaywrightWrapper>
