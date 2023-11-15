@@ -60,9 +60,9 @@ test('Playwright native page should have several link related to tests', async (
   await expect(page).toHaveURL('/playwright-native#toHaveText');
   await expect(page.getByRole('heading', { name: 'toHaveText' })).toBeVisible();
 
-  await page.getByRole('link', { name: 'toHaveValue' }).click();
+  await page.getByRole('link', { name: 'toHaveValue', exact: true }).click();
   await expect(page).toHaveURL('/playwright-native#toHaveValue');
-  await expect(page.getByRole('heading', { name: 'toHaveValue' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'toHaveValue', exact: true })).toBeVisible();
 
   await page.getByRole('link', { name: 'toHaveValues' }).click();
   await expect(page).toHaveURL('/playwright-native#toHaveValues');

@@ -54,7 +54,7 @@ test('test Tony Stark', async ({ page }) => {
   await page.getByPlaceholder('Email').fill('tony.stark@ironman.com');
   await page.getByPlaceholder('Password').fill('ironman12345');
   await page.getByPlaceholder('Bio').fill('Tony Stark is Iron Man');
-  await page.getByRole('radio', { name: 'Male' }).check();
+  await page.getByLabel('Male', { exact: true }).check();
   await page.getByLabel('Red').check();
   await page.getByLabel('Blue').check();
   await page.locator('select[name="fruit"]').selectOption('apple');

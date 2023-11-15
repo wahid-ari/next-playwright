@@ -10,7 +10,7 @@ test('should navigate to the index, native and example page', async ({ page }) =
   await expect(page.getByRole('heading', { name: 'Components Test' })).toBeVisible()
   
   // Find an element with the text 'Native' and click on it
-  await page.getByRole('link', { name: 'Native' }).click();
+  await page.getByRole('link', { name: 'Native', exact: true }).click();
   await expect(page).toHaveURL('/native');
   await expect(page.getByRole('heading', { name: 'Native Test' })).toBeVisible()
   
@@ -20,7 +20,7 @@ test('should navigate to the index, native and example page', async ({ page }) =
   await expect(page.getByRole('heading', { name: 'Playwright Native Test' })).toBeVisible()
   
   // Find an element with the text 'Playwright Form' and click on it
-  await page.getByRole('link', { name: 'Playwright Form' }).click();
+  await page.getByRole('link', { name: 'Playwright Form', exact: true }).click();
   await expect(page).toHaveURL('/playwright-form');
   await expect(page.getByRole('heading', { name: 'Playwright Form' })).toBeVisible()
   
